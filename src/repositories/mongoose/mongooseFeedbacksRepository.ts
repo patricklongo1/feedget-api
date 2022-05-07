@@ -5,4 +5,5 @@ import {
 
 export class MongooseFeedbacksRepository implements FeedbacksRepository {
   create(data: FeedbackCreateData) {}
+  console.log('teste')
 }
